@@ -1,0 +1,25 @@
+
+
+<div class="container w-50 mt-5 p-3">
+    <h3 class="text-center">add new product</h3>
+    <form  (ngSubmit)="updateFood(updateproductform)" #updateFoodform="ngForm"  action="" >
+        <div class="p-2">
+            <input [(ngModel)]="foodData.id"  class="form-control" type="text" placeholder="id" id="pid" name="pid">
+        </div>
+        <div class="p-2">
+            <input [(ngModel)]="foodData.foodName"  class="form-control" type="text" placeholder="foodname" id="pnid" name="pnid">
+        </div>
+        <div class="p-2">
+            <input [(ngModel)]="foodData.foodDetails"  class="form-control" type="text" placeholder="foodDetails" id="desid" name="desid">
+        </div>
+        <div class="p-2">
+            <input [(ngModel)]="foodData.foodPrice"  class="form-control" type="text" placeholder="price" id="prid" name="prid">
+        </div>
+        <div class="p-2">
+            <input [(ngModel)]="productdata.foodImg"  class="form-control" type="text" placeholder="foodImg url" id="imgid" name="imgid">
+        </div>
+        <div class="p-2 text-center">
+            <button type="submit"  class="btn btn-outline-dark">add product</button>
+        </div>
+    </form>
+</div>

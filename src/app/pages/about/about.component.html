@@ -1,0 +1,25 @@
+
+
+<div class="container w-50 mt-5 p-3">
+    <h3 class="text-center">add new product</h3>
+    <form [formGroup]="addproductform" (ngSubmit)="addfoodItem()"  action="" >
+        <div class="p-2">
+            <input formControlName="id"  class="form-control" type="text" placeholder="id" id="pid" name="pid">
+        </div>
+        <div class="p-2">
+            <input formControlName="foodName"  class="form-control" type="text" placeholder="foodName" id="fdid" name="fdid">
+        </div>
+        <div class="p-2">
+            <input formControlName="foodDetails"  class="form-control" type="text" placeholder="foodDetails" id="desid" name="desid">
+        </div>
+        <div class="p-2">
+            <input formControlName="foodImg"  class="form-control" type="text" placeholder="foodImg url" id="imgid" name="imgid">
+        </div>
+        <div class="p-2">
+            <input formControlName="foodPrice"  class="form-control" type="text" placeholder="foodPrice" id="prid" name="prid">
+        </div>
+        <div class="p-2 text-center">
+            <button type="submit"  class="btn btn-outline-dark">add Food</button>
+        </div>
+    </form>
+</div>

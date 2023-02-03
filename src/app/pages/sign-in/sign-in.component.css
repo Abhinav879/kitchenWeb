@@ -1,0 +1,28 @@
+
+.Login1{
+    /* margin-left: 150px; */
+    width: 50%;
+    position: sticky;
+    top: auto; 
+    left: 20%; 
+}
+
+.row{
+    /* position: absolute;
+    top: 25%;
+    left: 32%; */
+    border: 1px solid black;
+}
+h1{
+    color: var(--primary-color);
+}
+
+@media screen and (max-width:700px) {
+    .Login1 {
+        width: 100%;
+        /* position: absolute;
+        top: 20%;
+        left: 0%; */
+    }
+    
+}

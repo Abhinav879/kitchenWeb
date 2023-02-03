@@ -1,0 +1,81 @@
+{
+  "foodDetails": [
+    {
+      "id": 1,
+      "foodName": "Paneer Grilled Sandwich",
+      "foodDetails": "Pan-fried masala paneer.",
+      "foodPrice": 200,
+      "foodImg": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wzfq7djolqxgdhghebbq"
+    },
+    {
+      "id": 2,
+      "foodName": "Veggie Supreme",
+      "foodDetails": "Onion| Green Capsicum|Mushroom |black olives , sweet corn , Red Paprika topped with Cheese",
+      "foodPrice": 369,
+      "foodImg": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/sgbobtbxlojbtdnr2m5k"
+    },
+    {
+      "id": 3,
+      "foodName": "Paneer Burger",
+      "foodDetails": "panner",
+      "foodPrice": 149,
+      "foodImg": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/xbeqlsck3p0kei53to7k"
+    },
+    {
+      "id": 4,
+      "foodName": "Veg Masala Roll In Naan",
+      "foodDetails": "A homely mix of mashed potato and veggies, seasoned with Indian spices. A filling sure to take you back to mom's kitchen.",
+      "foodPrice": 140,
+      "foodImg": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/l2ng6gtge30sqaafqng7"
+    },
+    {
+      "id": 5,
+      "foodName": "Indulgence Brownie",
+      "foodDetails": "(Eggless) Indulge in richly decadent chocolate brownie crafted with love & topped with bitter-sweet chocolate that provides ultra-rich chocolate experience.",
+      "foodPrice": 105,
+      "foodImg": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/iqlmbg1hlyc0dspdyzzv"
+    },
+    {
+      "id": 6,
+      "foodName": "Oreo Cheesecake Ice Cream",
+      "foodDetails": "Oreo ice cream",
+      "foodPrice": 219,
+      "foodImg": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wtj8esaeslvlscv8glj6"
+    },
+    {
+      "id": 7,
+      "foodName": "Caribbean Grilled Chicken",
+      "foodDetails": "Spicy and hot schezwan sauce poured on arabian al faham to get tasty fusion arabic chinese food.",
+      "foodPrice": 163,
+      "foodImg": "https://i.postimg.cc/63tpZxxP/caribbean-grilled-chicken.webp"
+    },
+    {
+      "id": 8,
+      "foodName": "African B B Q",
+      "foodDetails": "Made using the famous mouthwatering Peri Peri Sauce. Extra coating of the Peri Peri sauce make chicken Juicy and spicy..",
+      "foodPrice": 173,
+      "foodImg": "https://i.postimg.cc/CKYgPCrB/african-B-B-Q.webp"
+    },
+    {
+      "id": 9,
+      "foodName": "Broasted Chicken (2 Pcs) Combo",
+      "foodDetails": "French Fries (1) + Garlic Dip (1) + Kubus (1)",
+      "foodPrice": 199,
+      "foodImg": "https://i.postimg.cc/dtjP7ZVJ/brosted-chi.webp"
+    },
+    {
+      "id": 10,
+      "foodName": "Arabian Special Shake",
+      "foodDetails": "Arabian Special Shake with fruits.",
+      "foodPrice": 200,
+      "foodImg": "https://i.postimg.cc/B6H7dR8J/special-shake.webp"
+    },
+    {
+      "id": "11",
+      "foodName": "Edible Chocolate Bowls",
+      "foodDetails": "Vanilla with chocolates",
+      "foodPrice": "199",
+      "foodImg": ""
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+.banner{
+    background-image: url('../../../assets/pablo-merchan-montes.jpg');
+    height: 600px;
+    background-position: center top;
+    background-size: cover;
+}
+.content{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+.content h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+.content a{
+    text-decoration: none;
+    background-color: white;
+    color: var(--primary-color);
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+.content a:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+.stepBox{
+    background-color: black;
+    padding: 20px 20px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.stepBox h1{
+    color: var(--primary-color);
+    font-size: 50px;
+    font-weight: bold;
+}
+.stepBox p{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
+.highlight{
+    color:var(--primary-color); 
+    font-weight:bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+.foodbox{
+    padding: 10px 5px;
+}
+.foodbox img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.foodbox h1{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.viewmore{
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(63, 218, 66);
+    color: rgb(28, 25, 25);
+    padding: 10px 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    
+}
+
+@media screen and (max-width:600px){
+    .banner{
+        height: 700px;
+    }
+    
+
+}
